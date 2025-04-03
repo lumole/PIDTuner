@@ -1,0 +1,54 @@
+# 忽略Qt构建目录
+build/
+debug/
+release/
+.qmake.stash
+
+# 忽略编译生成的文件
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.lib
+*.exe
+*.out
+*.app
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile*
+.qmake.cache
+
+# 忽略QtCreator相关的临时文件
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+*.tmp
+*.autosave
+*creator.user*
+CMakeLists.txt.user*
+
+# 忽略IDE临时文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略编译缓存
+.obj/
+.moc/
+.rcc/
+
+# CMake相关
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+_deps/ 
