@@ -56,8 +56,10 @@ cmake ..
 cmake --build .
 ```
 
+或使用Qt Creator构建
+
 ## 依赖项
 
-- Qt 5.12+ 或 Qt 6.0+
+- Qt 6.0+
 - QtSerialPort
 - QtCharts 
